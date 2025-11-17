@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { Button } from './ui/button'
 
 const Navbar = () => {
-    const [login, setLogin] = useState(false)
+    const [login, setLogin] = useState(true)
 
     return (
         <div className='bg-[#DECED0] p-2 px-5 h-16 w-full'>
