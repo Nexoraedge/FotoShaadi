@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Lexend_Deca, Aboreto } from "next/font/google";
 import "./globals.css";
 
-const lexendD = Lexend_Deca({
+const lexendDeca = Lexend_Deca({
   variable: "--font-lexend-giga",
   subsets: ["latin"],
 });
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${lexendD.variable} ${aboreto.variable} antialiased`}
+        className={`${lexendDeca.variable} ${aboreto.variable} antialiased`}
       >
         {children}
       </body>

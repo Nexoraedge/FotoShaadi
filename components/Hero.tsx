@@ -16,7 +16,7 @@ const Hero = () => {
           {/* cHEading text*/}
 
           <div className="  flex p-2 pb-10 lg:pb-20 max-md:items-start  items-center justify-center  md:justify-start lg:justify-center h-1/2 w-full  lg:h-full">
-            <h2 className="text-4xl md:w-4/6 lg:w-full  sm:text-5xl md:text-6xl xl:text-7xl font-bold text-white font-[Aboreto] text-shadow-lg text-shadow-white/30  ">Share the day, Keep the moments.</h2>
+            <h2 className="text-4xl md:w-4/6 lg:w-full  sm:text-5xl md:text-6xl xl:text-7xl font-bold text-white font-[Aboreto] md:text-shadow-lg text-shadow-sm text-shadow-white/30  ">Share the day, Keep the moments.</h2>
           </div>
 
           {/* CTA && SubHeading */}
