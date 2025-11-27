@@ -3,7 +3,7 @@ import { Button } from "./ui/button"
 
 const Hero = () => {
   return (
-    <section className="h-[91vh] w-full relative ">
+    <section className="max-h-screen h-[91.11vh] top-16 w-full relative ">
       <div className="absolute top-0 left-0 z-0 w-full h-full">
         <Image src="/assets/Hero-Img.png" alt="hero-bg" fill className="object-cover" />
       </div>
@@ -15,7 +15,7 @@ const Hero = () => {
 
           {/* cHEading text*/}
 
-          <div className="  flex p-2 pb-10 lg:pb-20 max-md:items-start  items-center justify-center  md:justify-start lg:justify-center h-1/2 w-full  lg:h-full">
+          <div className="  flex p-3 pb-10  lg:pb-20 max-md:items-start  items-center justify-center  md:justify-start lg:justify-center h-1/2 w-full  lg:h-full">
             <h2 className="text-4xl md:w-4/6 lg:w-full  sm:text-5xl md:text-6xl xl:text-7xl font-bold text-white font-[Aboreto] md:text-shadow-lg text-shadow-sm text-shadow-white/30  ">Share the day, Keep the moments.</h2>
           </div>
 

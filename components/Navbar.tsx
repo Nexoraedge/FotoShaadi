@@ -7,7 +7,7 @@ const Navbar = () => {
     const [login, setLogin] = useState(true)
 
     return (
-        <div className='bg-[#DECED0] p-2 px-5 h-16 w-full'>
+        <div className={`bg-[#DECED0] fixed  top-0 z-100 p-2 px-5 h-16 w-full`}>
             <div className="center w-full  h-full  flex justify-between">
                 
                 <div className="flex items-center gap-2">

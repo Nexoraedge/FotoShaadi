@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Features = () => {
     return (
-        <section className=" w-full   md:py-[112px] lg:pl-[56px] py-[64px] px-[24px] bg-[#EEE6E7]">
+        <section className=" w-full    md:py-[112px] lg:pl-[56px] py-[64px] px-[24px] bg-[#EEE6E7]">
 
             <div className="container mx-auto  flex flex-col gap-[80px] ">
 
@@ -31,13 +31,13 @@ const Features = () => {
                         </div>
 
                         <div className="mid flex flex-col border-sky-500 max-lg:h-[558] h-full max-lg:w-full w-[658] lg:px-[24] lg:py-[48] max-lg:py-[20] max-lg:px-[5] gap-[30px] ">
-                               <div className="topt flex flex-col gap-[18px]">
+                            <div className="topt flex flex-col gap-[18px]">
                                 <h2 className="font-[Aboreto] text-[30px] md:text-[40px] lg:text-[50px]">Digital wedding memories</h2>
                                 <p className="text-[#0C0A02] font-[v] text-sm  md:text-[16px] ">Preserve your wedding photography in crystal-clear quality. Every image is stored securely in the cloud, ensuring your memories stay safe, organized, and always accessible</p>
-                               </div>
-                               {/* <div className="img max-lg:mt-6  max-lg:w-[350] h-[350] w-full self-center">
-                                <Image src="/1.png" alt="feature-img" fill className=" rounded-2xl" /> */}
-                               {/* </div> */}
+                            </div>
+                            <div className="img max-lg:mt-6 rounded-xl flex justify-center  max-lg:w-[350] h-[350] w-full self-center">
+                                <Image src="/assets/Feature_1.png" width={500} height={500} alt="IMg" className="h-full  rounded-xl shadow-md shadow-black/35 " />
+                            </div>
                         </div>
 
                     </div>
